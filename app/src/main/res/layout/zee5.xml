@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+     android:layout_width="match_parent"
+    android:background="#131111">
+
+
+    <!--top-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:id="@+id/i1">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@color/black"
+            android:contentDescription="@string/zee5_logo"
+            android:src="@drawable/zee" />
+
+        <!--buy plan , search whole-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <!--buy plan-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#9010A6"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/zee5_logo"
+                    android:src="@drawable/crone" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Buy_Plan"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!--search whole-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="6dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/zee5_logo"
+                    android:src="@drawable/search" />
+                <!--profile , sets-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="6dp"
+                        android:background="@color/white"
+                        android:contentDescription="@string/zee5_logo"
+                        android:src="@drawable/sets" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="6dp"
+                        android:contentDescription="@string/zee5_logo"
+                        android:src="@drawable/profile" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--home bar-->
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/i2"
+        android:layout_below="@+id/i1">
+
+        <LinearLayout
+
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/Home"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/Tv_Shows"
+                android:textColor="#6F4EAA"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/Movies"
+                android:textColor="#6F4EAA"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/Premium"
+                android:textColor="#6F4EAA"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/News"
+                android:textColor="#6F4EAA"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/Web_Series"
+                android:textColor="#6F4EAA"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/Live_Tv"
+                android:textColor="#6F4EAA"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/Music"
+                android:textColor="#6F4EAA"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/Learning"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!--middle vertical scroll-->
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/i3"
+        android:layout_below="@+id/i2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--top movies-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <HorizontalScrollView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="UselessParent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="300dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            android:contentDescription="@string/mineclg"
+                            android:src="@drawable/mudhal" />
+
+                        <ImageView
+
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            android:contentDescription="@string/mineclg"
+                            android:src="@drawable/velan" />
+
+                        <ImageView
+
+                            android:layout_width="600dp"
+                            android:layout_height="300dp"
+                            android:contentDescription="@string/mineclg"
+                            android:src="@drawable/dikkilona" />
+
+
+                        <ImageView
+                            android:layout_width="410dp"
+                            android:layout_height="270dp"
+                            android:contentDescription="@string/aranmani"
+                            android:src="@drawable/veeramaevaagaisoodum" />
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <!--exclusive movies-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/Exclusive_Movies_on_ZEE5"
+                    android:textColor="#C6B4B4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="end"
+                    android:text="@string/more"
+                    android:textColor="#BE00DF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!--movies-->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="240dp"
+                        android:layout_margin="8dp"
+                        android:contentDescription="@string/aranmani"
+                        android:src="@drawable/aranmanai" />
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="240dp"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/aranmani"
+                        android:src="@drawable/pennisula" />
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="240dp"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/hotel"
+                        android:src="@drawable/hotel" />
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="240dp"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/aranmani"
+                        android:src="@drawable/aranmanai" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <!--exclusive movies-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/Top_10_in_India"
+                    android:textColor="#B8A0A0"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="end"
+                    android:text="@string/more"
+                    android:textColor="#BE00DF"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+
+            </LinearLayout>
+
+            <!--top 10 movies-->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="240dp"
+                        android:layout_margin="8dp"
+                        android:contentDescription="@string/aranmani"
+                        android:src="@drawable/img1" />
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="240dp"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/aranmani"
+                        android:src="@drawable/img2" />
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="240dp"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/hotel"
+                        android:src="@drawable/img3" />
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="240dp"
+                        android:layout_margin="5dp"
+                        android:contentDescription="@string/aranmani"
+                        android:src="@drawable/img4" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+<!--layout 2-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/i3">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/downbar"
+            android:contentDescription="@string/bar" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">contest</string>
+    <string name="zee5_logo">zee5</string>
+    <string name="buy_plan">buyplan</string>
+    <string name="Buy_Plan">Buy Plan</string>
+    <string name="Home">Home</string>
+    <string name="Tv_Shows">Tv_Shows</string>
+    <string name="Movies">Movies</string>
+    <string name="Premium">Premium</string>
+    <string name="News">News</string>
+    <string name="Web_Series">Web_Series</string>
+    <string name="Live_Tv">Live_Tv</string>
+    <string name="Music">Music</string>
+    <string name="Learning">Learning</string>
+    <string name="mineclg">mudhal nee</string>
+    <string name="aranmani">aranmanai</string>
+    <string name="exclusive_movies_on_zee5_more"><![CDATA[Exclusive Movies on ZEE5 More >]]></string>
+    <string name="hotel">hotel</string>
+    <string name="moree"><![CDATA[More >]]></string>
+    <string name="more"><![CDATA[More >]]></string>
+    <string name="Exclusive_Movies_on_ZEE5">Exclusive Movies on ZEE5</string>
+    <string name="Top_10_in_India">Top 10 in India</string>
+    <string name="bar">bar</string>
+</resources>
